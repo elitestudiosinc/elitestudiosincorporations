@@ -1,0 +1,76 @@
+#cover {
+  background-image: url("Images/cover.png");
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  left: 0px;
+  top: 0px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+#sample {
+  background-image: url("Images/sample.jpeg");
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  top: 170vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#section2 {
+  position: absolute;
+  top: 100vh;
+  left: 0;
+  width: 100vw;
+  height: 70vh;
+  background-color: #303030;
+  z-index: 2;
+}
+#section2 > div {
+  position: relative;
+  left: 10vw;
+  top: 15%;
+  width: 80vw;
+  height: 70%;
+  background-color: lightslategrey;
+  border: 2px solid lightslategrey;
+  border-radius: 1rem;
+  z-index: 3;
+}
+#section2 > div > pre {
+  position: relative;
+  width: 100%;
+  height: 80%;
+  top: 10%;
+  left: 0%;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  overflow-x: none;
+}
+#section3 {
+  position: absolute;
+  top: 270vh;
+  width: 100vw;
+  height: 15vh;
+  z-index: 3;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-evenly;
+}
+#section3 > img {
+  width: 10vw;
+  margin-top: 2.5vh;
+  height: 10vh;
+  cursor: pointer;
+}
+html {
+  scroll-behavior: smooth;
+}
