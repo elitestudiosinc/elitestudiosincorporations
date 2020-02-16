@@ -144,7 +144,7 @@
   height: 80%;
   top: 10%;
   left: 0%;
-  font-family: arial;
+  font-family: Comic Sans MS;
   font-weight: bold;
   font-size: 1rem;
   color: white;
@@ -207,7 +207,7 @@ html {
  font-family: Comic Sans MS;
  font-weight: lighter;
  font-size: 1rem;
- color: white;
+ color: black;
  overflow-x: hidden;
  padding-top: 5%;
  padding-left: 5%;
