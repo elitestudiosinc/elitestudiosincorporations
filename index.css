@@ -204,10 +204,10 @@ html {
 #tosPopUp > h1 {
  position: relative;
  left: 0;
- font-family: arial;
+ font-family: Comic Sans MS;
  font-weight: lighter;
  font-size: 1rem;
- color: black;
+ color: white;
  overflow-x: hidden;
  padding-top: 5%;
  padding-left: 5%;
