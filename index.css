@@ -192,11 +192,11 @@ html {
 #tosPopUp {
   background-color: #11eafa;
   position: absolute;
-  top: 200vh;
+  top: 180vh;
   z-index: 5;
   left: 10vw;
   width: 80vw;
-  height: 2000vh;
+  height: 80vh;
   border: 1px #7b8334;
   border-radius: 0.5rem;
   visibility: hidden;
